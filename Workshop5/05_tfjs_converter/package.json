@@ -1,0 +1,16 @@
+{
+  "name": "05_tfjs_converter",
+  "version": "1.0.0",
+  "description": "Load Converted TFJS Model",
+  "main": "02_load_converted_tfjs_model.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs": "^3.5.0",
+    "@tensorflow/tfjs-node": "^3.5.0"
+  }
+}
