@@ -13,7 +13,7 @@ In this exercise you will learn:
 Every Node.js application has a `package.json` file that contains information about the application, such as the name and version of the application, and JavaScript packages that the application relies on (dependencies).
 
 To create a `package.json`, run the following command in the `03_simple_web_app` folder:
-> `npm install -y`
+> `npm init -y`
 
 The `-y` flag creates default settings for the application (if we omit the flag, we can choose settings interatively in the terminal).
 
