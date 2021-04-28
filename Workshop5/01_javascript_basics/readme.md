@@ -13,11 +13,11 @@ Let's start by downloading and installing [Node.js](https://nodejs.org) (or node
 
 We can use the Node Package Manager `npm` to install a JavaScript kernel for Jupyter Notebook. This will enable us to run JavaScript in a Jupyter Notebook. At the moment Visual Studio Code doesn't have good support for Notebooks with programming languages other than Python, but Jupyter Notebook does support multiple programming languages (e.g. Python, JavaScript, C, C++, C#, Java, etc), as long as a kernel has been installed for that specific programming language.
 
-Run the following command in a terminal to install a JavaScript kernel for Jupyter Notebook:
-> `npm install ijavascript`
+Run the following command in a terminal to install a JavaScript kernel (globally) for Jupyter Notebook:
+> `npm install ijavascript -g`
 
-Then, from the folder `` start Jupyter Notebook with the following command:
-> `jupyter notebook`
+Then, from the folder `01_javascript_basic` start Jupyter Notebook with the following command:
+> `jupyter notebook --NotebookApp.token=''`
 
 Finally, choose to open the file `javascript_basics.ipynb` in the Jupyter Notebook web interface, and execute the cells in the Notebook.
 
