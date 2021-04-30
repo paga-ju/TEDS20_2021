@@ -11,7 +11,9 @@ In this exercise you will learn how to use TensorFlow JS (TFJS) to:
 
 In the `04_tfjs` folder, run:
 > `npm init -y`
+
 > `np install @tensorflow/tfjs --save`
+
 > `np install @tensorflow/tfjs-node --save`
 
 Or, run the command below to install the packages from the existing `package.json` file:
